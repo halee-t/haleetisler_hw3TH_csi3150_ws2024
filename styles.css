@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.page-1 .container img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.page-1 .logo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.page-1 .logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.page-1 .logo .logo-words {
+    text-transform: uppercase;
+    font-size: 8px;
+    font-family: "Roboto Slab", serif;
+    color: #fff;
+}
+
+.page-1 .logo .logo-words span {
+    display: block;
+    font-size: 24px;
+}
+
+.page-1 header {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.page-1 header h1 {
+    font-size: 64px;
+    color: rgb(230, 198, 40);
+}
+
+header h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.page-1 header i {
+    font-size: 64px;
+    color: rgb(230,198,40);
+}
+
+.page-2 {
+    position: relative;
+}
+
+.page-2 .container img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    margin-top: -5px;
+}
+
+.page-2 .content {
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    height: 80%;
+    top: 0;
+    padding: 50px 100px;
+}
+
+.page-2 .left-col {
+    flex:2;
+}
+
+.page-2 .right-col {
+    flex:2;
+}
+
+.page-2 .content h1 {
+    font-size: 72px;
+    font-family: "Roboto", sans-serif;
+    width: 60%;
+}
+
+.page-2 .content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.page-2 .content button {
+    border: none;
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.page-3 {
+    position: relative;
+}
+
+.page-3 .content header h1 {
+    font-size: 48px;
+}
+
+.page-3 .container img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    margin-top: -5px;
+}
+
+.page-3 .content {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top: 0;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.page-3 .content .cards {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.page-3 .content .cards section {
+    height: 400px;
+    width: 300px;
+    position: relative;
+}
+
+.page-3 .content .cards section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page-3 .content .cards section h3 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.page-3 .content .cards section i {
+    color: yellow;
+    font-size: 64px;
+    margin-left: -15px;
+}
+
+.page-3 .content .cards section .info {
+    background-color: rgba(0, 0, 0, 0.187);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    padding: 20px;
+}
+
+.page-3 .content button {
+    border: none;
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.page-4 {
+    position: relative;
+}
+
+
+.page-4 .container img {
+    width: 100%;
+    height: 75%vh;
+    object-fit: cover;
+    margin-top: -5px;
+}
+
+
