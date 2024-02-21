@@ -118,6 +118,7 @@ header h3 {
   padding: 10px;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  color: #333;
 }
 
 .page-2 .content button:hover {
@@ -195,6 +196,7 @@ header h3 {
   padding: 10px 30px;
   font-weight: bold;
   font-size: 1.6rem;
+  color: #333;
 }
 
 .page-3 .content button:hover {
@@ -245,6 +247,11 @@ header h3 {
 .page-4 .content p {
   font-size: 1.5rem;
   margin-bottom: 20px;
+}
+
+.page-4 .content a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .page-5 {
