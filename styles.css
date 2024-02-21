@@ -726,8 +726,9 @@ header h3 {
   }
 
   .page-2 .content button {
-    font-size: 0.9rem;
+    font-size: 1rem;
     width: 100px;
+    padding: 5px 0;
   }
 
   .page-3 .content header h1 {
@@ -803,12 +804,78 @@ header h3 {
   }
 
   .page-6 .content {
-    padding: 50px 50px;
+    padding: 100px 20px 50px;
+  }
+
+  .page-6 .content img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
   }
 
   .page-6 .content q {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 15px;
+  }
+
+  .page-6 .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .page-6 .content i {
+    font-size: 80px;
+  }
+
+  .page-7 .container {
+    flex-wrap: wrap;
+  }
+
+  .page-7 .container img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .page-8 .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-top: -40px;
+  }
+
+  .page-8 .left-col {
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .page-8 .content .left-col .contact {
+    margin: 5px 0;
+  }
+
+  .page-8 .right-col {
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .page-8 .content .right-col form {
+    gap: 10px;
+    align-items: center;
+  }
+
+  .page-8 .content .right-col form input {
+    height: 40px;
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  .page-8 .content .right-col form textarea {
+    width: 90%;
+  }
+
+  .page-8 .content .left-col h1 {
+    font-size: 3rem;
+    text-align: center;
   }
 }
 
