@@ -15,12 +15,15 @@
   object-fit: cover;
 }
 
-.page-1 .logo {
+.page-1 .content {
   position: absolute;
-  top: 30%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.page-1 .logo {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .page-1 .logo img {
@@ -31,28 +34,24 @@
 
 .page-1 .logo .logo-words {
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 0.8rem;
   font-family: "Roboto Slab", serif;
   color: #333;
 }
 
 .page-1 .logo .logo-words span {
   display: block;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Roboto Slab", serif;
 }
 
 .page-1 header {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
 
 .page-1 header h1 {
-  font-size: 96px;
+  font-size: 8rem;
   color: var(--accent-color);
 }
 
@@ -60,12 +59,12 @@ header h3 {
   text-transform: uppercase;
   color: #222;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.3rem;
 }
 
 .page-1 header i {
   margin-top: -5px;
-  font-size: 64px;
+  font-size: 6rem;
   color: var(--accent-color);
 }
 
@@ -95,24 +94,25 @@ header h3 {
 
 .page-2 .right-col {
   flex: 2;
+  flex-wrap: wrap;
 }
 
 .page-2 .content h1 {
-  font-size: 72px;
+  font-size: 4.5rem;
   font-family: "Roboto", sans-serif;
   width: 60%;
   color: var(--accent-color);
 }
 
 .page-2 .content p {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 20px;
   color: #fff;
 }
 
 .page-2 .content button {
   width: 150px;
-  font-size: 24px;
+  font-size: 1.6rem;
   border: none;
   background-color: var(--accent-color);
   padding: 10px;
@@ -130,7 +130,7 @@ header h3 {
 }
 
 .page-3 .content header h1 {
-  font-size: 48px;
+  font-size: 3rem;
   color: var(--accent-color);
 }
 
@@ -171,12 +171,12 @@ header h3 {
 
 .page-3 .content .cards section h3 {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.6rem;
 }
 
 .page-3 .content .cards section i {
   color: var(--accent-color);
-  font-size: 64px;
+  font-size: 4rem;
   margin-left: -15px;
 }
 
@@ -194,7 +194,7 @@ header h3 {
   background-color: var(--accent-color);
   padding: 10px 30px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.6rem;
 }
 
 .page-3 .content button:hover {
@@ -232,18 +232,18 @@ header h3 {
 }
 
 .page-4 .content h1 {
-  font-size: 72px;
+  font-size: 4rem;
   font-family: "Roboto", sans-serif;
   color: var(--accent-color);
 }
 
 .page-4 .content h4 {
-  font-size: 32px;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
 .page-4 .content p {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
 
@@ -279,12 +279,12 @@ header h3 {
 }
 
 .page-5 .content .circle h1 {
-  font-size: 80px;
+  font-size: 4.5rem;
   color: var(--accent-color);
 }
 
 .page-5 .content .circle p {
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -324,14 +324,14 @@ header h3 {
   color: #fff;
   text-align: center;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 25px;
   background-color: #3333331f;
   padding: 10px;
 }
 
 .page-6 .content h1 {
-  font-size: 32px;
+  font-size: 2rem;
   color: #fff;
 }
 
@@ -406,7 +406,7 @@ header h3 {
   padding-right: 200px;
 }
 .page-8 .content .left-col h1 {
-  font-size: 80px;
+  font-size: 5rem;
   color: var(--accent-color);
 }
 
@@ -414,12 +414,12 @@ header h3 {
   margin-top: 15px;
   margin-bottom: 25px;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 25px;
 }
 
 .page-8 .content .left-col .icons {
-  font-size: 32px;
+  font-size: 2rem;
   color: var(--accent-color);
 }
 
@@ -442,7 +442,7 @@ header h3 {
   border-style: solid;
   border-color: #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .page-8 .content .right-col form input::placeholder {
@@ -460,7 +460,7 @@ header h3 {
   background-color: transparent;
   border: solid 2px #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
 }
 
@@ -481,7 +481,7 @@ header h3 {
   color: #333;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .page-8 .content form button:hover {
@@ -492,35 +492,324 @@ header h3 {
 /* RESPONSIVE DESIGN SECTION */
 
 @media screen and (max-width: 1550px) {
-  .page-2 .left-col h1 {
-    font-size: 64px;
+  .page-1 header h1 {
+    font-size: 7rem;
+  }
+  .page-2 .content {
+    gap: 60px;
   }
 
-  .page-2 .right-col p {
-    font-size: 20px;
+  .page-2 .content h1 {
+    width: 100%;
+    font-size: 3.5rem;
   }
 
-  .page-2 .right-col button {
-    width: 140px;
+  .page-2 .content .right-col p {
+    font-size: 1.1rem;
   }
 
-  .page-4 .left-col h1 {
-    font-size: 64px;
+  .page-2 .content .right-col button {
+    font-size: 1.2rem;
+    width: 8rem;
   }
 
-  .page-4 .right-col p {
-    font-size: 20px;
+  .page-3 .content .cards section {
+    width: 300px;
+    height: 350px;
   }
 
-  .page-4 .right-col h4 {
-    font-size: 28px;
+  .page-4 .content h1 {
+    font-size: 3.5rem;
+  }
+
+  .page-4 .content .right-col p {
+    font-size: 1.09rem;
+  }
+
+  .page-4 .content .right-col h4 {
+    font-size: 1.5rem;
+  }
+  .page-5 .content {
+    gap: 50px;
+  }
+
+  .page-5 .content .circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .page-6 .content {
+    padding: 100px 150px;
+  }
+
+  .page-6 .content img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .page-8 .content {
+    gap: 50px;
+    padding-top: 50px;
+  }
+
+  .page-8 .left-col {
+    padding-left: 100px;
   }
 }
 
 @media screen and (max-width: 1100px) {
+  .page-1 header h1 {
+    font-size: 6rem;
+    margin-top: -20px;
+  }
+
+  .page-2 .content {
+    padding: 30px 50px;
+    gap: 25px;
+  }
+
+  .page-2 .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .page-2 .content .right-col p {
+    font-size: 1rem;
+  }
+
+  .page-2 .content .right-col button {
+    width: 100px;
+    font-size: 1.1rem;
+    width: 9rem;
+  }
+
+  .page-3 .content header h1 {
+    font-size: 2rem;
+  }
+
+  .page-3 .content .cards {
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .page-3 .content .cards section {
+    height: 250px;
+    width: 200px;
+  }
+
+  .page-3 .content .cards section h3 {
+    font-size: 1.2rem;
+  }
+
+  .page-3 .content .cards section i {
+    font-size: 4rem;
+  }
+
+  .page-3 .content .cards section .info {
+    bottom: 0px;
+    padding: 10px;
+  }
+
+  .page-3 .content .cards section h3 {
+    margin-bottom: -15px;
+  }
+
+  .page-3 .content button {
+    margin-top: -30px;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+  }
+
+  .page-4 .content {
+    padding: 50px 50px;
+    gap: 25px;
+  }
+
+  .page-4 .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .page-4 .content .right-col p {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+  }
+
+  .page-4 .content .right-col h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+
+  .page-5 .content {
+    gap: 30px;
+  }
+
+  .page-5 .content .circle {
+    width: 180px;
+    height: 180px;
+  }
+
+  .page-5 .content .circle h1 {
+    font-size: 2.99rem;
+  }
+
+  .page-5 .content .circle p {
+    font-size: 0.9rem;
+  }
+
+  .page-6 .content {
+    padding: 50px 100px;
+  }
+
+  .page-6 .content img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .page-8 .left-col {
+    padding-left: 50px;
+    margin-top: 0;
+  }
+
+  .page-8 .right-col {
+    padding-right: 50px;
+    width: 50%;
+  }
+
+  .page-8 .content .right-col form {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 780px) {
+  .page-1 header h1 {
+    font-size: 4.5rem;
+  }
+
+  .page-1 .logo {
+    margin-bottom: 40px;
+  }
+
+  .page-1 .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .page-1 .logo .logo-words {
+    font-size: 0.5rem;
+  }
+
+  .page-1 .logo .logo-words span {
+    font-size: 1rem;
+  }
+
+  .page-1 header h3 {
+    font-size: 1rem;
+  }
+
+  .page-1 header i {
+    font-size: 4rem;
+  }
+
+  .page-2 .content {
+    flex-direction: column;
+    gap: 0;
+    padding: 10px 50px;
+  }
+
+  .page-2 .content h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .page-2 .content .right-col p {
+    font-size: 0.8rem;
+  }
+
+  .page-2 .content button {
+    font-size: 0.9rem;
+    width: 100px;
+  }
+
+  .page-3 .content header h1 {
+    font-size: 1.8rem;
+  }
+
+  .page-3 .content {
+    padding: 10px 50px;
+  }
+
+  .page-3 .content .cards {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .page-3 .content .cards section {
+    height: 150px;
+    width: 250px;
+  }
+
+  .page-3 .content .cards section .info {
+    padding: 10px 10px 0px;
+  }
+
+  .page-3 .content button {
+    font-size: 1rem;
+  }
+
+  .page-4 .content h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+  }
+
+  .page-4 .content {
+    flex-direction: column;
+    padding: 10px 50px;
+  }
+
+  .page-4 .content .right-col p {
+    font-size: 0.8rem;
+  }
+
+  .page-4 .content .right-col h4 {
+    font-size: 1.4rem;
+  }
+
+  .page-5 .content {
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-5 .content .circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .page-5 .content .circle h1 {
+    font-size: 3rem;
+  }
+
+  .page-5 .content .circle p {
+    font-size: 0.6rem;
+  }
+
+  .page-6 .content {
+    padding: 50px 50px;
+  }
+
+  .page-6 .content q {
+    font-size: 0.8rem;
+    line-height: 15px;
+  }
 }
 
 @media screen and (max-width: 650px) {
